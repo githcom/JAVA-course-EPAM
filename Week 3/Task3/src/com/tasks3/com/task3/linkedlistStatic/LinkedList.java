@@ -1,7 +1,7 @@
-package com.tasks3.linkedlist;
+package com.tasks3.com.task3.linkedlistStatic;
 
 /**
- * Created by AVK on 12.03.2017.
+ * Created by AVK on 19.03.2017.
  */
 public class LinkedList {
     private int size=0;
@@ -10,7 +10,7 @@ public class LinkedList {
 
 
 
-    class Node{
+    public static class Node{
         private Node next;
         private Integer data;
 
@@ -29,6 +29,7 @@ public class LinkedList {
         public void setData(Integer data) {
             this.data = data;
         }
+
     }
 
 
@@ -162,3 +163,4 @@ public class LinkedList {
 //        this.data = data;
 //    }
 //}
+
